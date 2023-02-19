@@ -6,4 +6,120 @@ body{
   width: 100%;
   height: 100%;
   margin: 0;
+  background-color: rgb(237, 246, 250);
+}
+img{
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.content{
+  max-width:1000px;
+  margin: 0 auto;
+}
+header{
+  margin: 30px 0 10px 0;
+
+}
+.logo-style {
+  width: 160px;
+}
+article{
+  background-color: #fff;
+  padding: 30px 0;
+  text-align: start;
+}
+#article-content{
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 2.5rem;
+}
+.title{
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.lists{
+  margin-left: 20px;
+}
+.lists li{
+  font-size: 0.9rem;
+  color: #4e4e4e;
+}
+section{
+  margin: 60px 0;
+}
+.second-wrapper{
+  max-width: 600px;
+  margin:0 auto;
+}
+.section-content{
+  display: flex;
+}
+.title {
+  margin-bottom: 10px;
+}
+#detail-image{
+  width: 100%;
+  margin-right: 50px;
+}
+
+#profile{
+  width: 100%;
+}
+.profile h2{
+  margin-bottom: 20px;
+}
+.section h2{
+  font-size: 1.13rem;
+  color: #5d5d5d;
+}
+#book-detail{
+  margin: 20px 0;
+  padding: 20px 0;
+  border-top: #d6d6d6 solid;
+  border-bottom: #d6d4d4 solid;
+}
+#book-detail p{
+  font-size: 0.9rem;
+}
+#detail-text{
+  margin: 20px 0;
+}
+#detail-text p{
+  font-size: 0.9rem;
+}
+#link a{
+  text-decoration:underline;
+  color: #626262;
+}
+#link a:hover{
+  color: #aaa5a5;
+}
+.footer{
+  padding: 20px 0;
+}
+.footer p{
+  font-size: 10px;
+}
+
+@media (max-width: 1024px) {
+  header{
+    margin: 10px 20px;
+  }
+  .content-padding{
+    padding: 0 20px;
+  }
+  
+  .section{
+    padding: 0 10px;
+  }
+  .section-content{
+    flex-direction: column;
+    align-items: center;
+  }
+  #detail-image{
+    margin-right:0;
+  }
+
 }
